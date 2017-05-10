@@ -1,0 +1,38 @@
+﻿@model ValidateCreditCard.Models.CreditCardModel
+<!DOCTYPE html>
+<html lang="es-pr">
+
+<head>
+    <title>Validação de Cartão de Credito </title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+    <style type="text/css">
+        body {
+            background-color:lightblue;
+            font-family:Verdana,Arial;
+            margin:50px;
+        }
+        form{
+            padding:10px;
+            border-style:solid;
+            width:550px;
+        }
+    </style>
+    <h2>Ingresse o Nro de Cartão a ser Validado</h2>
+    <form action="" method="post">
+        <p>
+            <label for ="txtNro">Nro de Cartão</label>
+            <input type="text" name="txtNro" />
+            <input type="submit" value="Validar Cartão" />
+        </p>
+        <p> </p>
+
+        
+        <ul>
+            
+            <text>--></text>@ViewData["Respuesta"]
+        </ul>
+    </form>
+</body>
+</html>

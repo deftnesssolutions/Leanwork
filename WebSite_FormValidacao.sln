@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSite_FormValidacao", "WebSite_FormValidacao\WebSite_FormValidacao.csproj", "{A8877F3D-7F85-446F-9F71-1D4D5076541D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSite_FormValidacaoTest", "WebSite_FormValidacaoTest\WebSite_FormValidacaoTest.csproj", "{95F4CA98-162B-4689-8952-DF8806565B6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{622B9035-4D9C-4654-8958-1E42A867FFEC}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8877F3D-7F85-446F-9F71-1D4D5076541D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8877F3D-7F85-446F-9F71-1D4D5076541D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8877F3D-7F85-446F-9F71-1D4D5076541D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8877F3D-7F85-446F-9F71-1D4D5076541D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95F4CA98-162B-4689-8952-DF8806565B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F4CA98-162B-4689-8952-DF8806565B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F4CA98-162B-4689-8952-DF8806565B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F4CA98-162B-4689-8952-DF8806565B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
