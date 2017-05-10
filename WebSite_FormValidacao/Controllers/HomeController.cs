@@ -20,7 +20,7 @@ namespace ValidateCreditCard.Controllers
         {
             try
             {
-                var nroCartao = Request["txtNro"];
+                var nroCartao = Request["txtNro"].Trim();
                 string bandeira = "";
                 string status = "";
                 ValidateCriditCard validacao = new ValidateCriditCard();
